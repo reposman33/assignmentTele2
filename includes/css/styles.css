@@ -1,0 +1,123 @@
+
+@media screen and (max-width:640px){
+	body {
+		font-size: 12px;
+	}
+	
+	.phoneInfoLabel{
+		font-size: 0.6em;
+		text-indent: 15%;
+	}
+	.phoneInfoValue{
+		font-size: 0.6em;		
+	}
+}
+
+
+@media screen and (max-width: 360px){
+	body {
+		font-size: 10px;
+	}
+	.phoneInfoLabel{
+		font-size: 0.4em;
+		text-indent: 10%;
+	}
+	.phoneInfoValue{
+		font-size: 0.4em;		
+	}
+}
+
+body{
+	width: 100%;
+}
+ 
+.header, ._footer, .phoneInfoField{
+	height: 15%;
+	background-color: #005EB8;
+	padding: 2% 5%;
+	font-family: Verdana,Arial,"Sans serif";
+	font-size: 2em;
+	color: #FFF;
+	width: 90%;
+	margin: auto;
+}
+
+.phoneInfoField{
+	background-color: #CCC;
+	color: #222;
+}
+
+.phoneInfoLabel{
+	font-style: oblique;
+	font-size: 0.8em;
+	text-indent: 20%;
+}
+
+
+.phoneInfoValue{
+	float: right;
+	width: 75%;
+}
+
+.phoneImageSelected{
+	background-color: #FFF !important;
+}
+
+.header{
+	margin-bottom: 3%;
+}
+
+._footer, .phoneInfoField{
+	height: 190px;
+	bottom: 0%;
+	margin-top: 10%;
+}
+
+select#phoneSelector{
+	margin: 2% 5% 2%;
+}
+
+.cols4, .cols8{
+	float: left;
+	margin: 0 0.2em;
+	height:100%;
+	width: 25%;
+}
+
+.cols8{
+	width: auto;
+}
+
+
+.cols4:nth-child(2n+2), .cols8:nth-child(2n+2){
+	margin-left: 0.3em;
+}
+
+.row{
+	width: auto;
+	height: 90px;
+	margin: 5px 0;
+}
+
+.row:nth-child(4n+4){
+	margin-top: 10px;
+}
+
+.cols4{
+	width: 20%;
+	background-color: #005EB8;
+}
+
+.cols8{
+	width: 10%;
+	background-color: #01B8A4;
+}
+
+*.last{
+	margin-right: 5%;
+}
+
+*.first{
+	margin-left: 5%;
+}
+
